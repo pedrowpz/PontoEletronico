@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Relatório de Pontos</title>
+</head>
+<body>
+    <h1>Relatório de Pontos</h1>
+    <table>
+        <tr>
+            <tr>Nome</tr>
+            <tr>Horário</tr>
+        </tr>
+        {% for registro in registros %}
+        <tr>
+            <td>{{ registro[0] }}</td>
+            <td>{{ registro[1] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+
+

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <title>Registro de Ponto</title>
+</head>
+<body>
+    <h1>Registro de Ponto</h1>
+    <form method="POST" action="{{ url_for('registro') }}">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <button type="submit">Registrar</button>
+    
+    </form>
+</body>
+</html>
